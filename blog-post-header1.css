@@ -1,0 +1,98 @@
+.blog-post-header1-content {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.blog-post-header1-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-post-header1-header {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.blog-post-header1-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.blog-post-header1-breadcrumbs {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+}
+.blog-post-header1-content2 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-post-header1-avatar {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+}
+.blog-post-header1-author-image {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.blog-post-header1-content3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.blog-post-header1-time {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+}
+.blog-post-header1-share-buttons {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+}
+.blog-post-header1-text06 {
+  display: inline-block;
+}
+.blog-post-header1-text07 {
+  display: inline-block;
+}
+.blog-post-header1-text08 {
+  display: inline-block;
+  font-weight: 600;
+}
+.blog-post-header1-text09 {
+  display: inline-block;
+}
+@media(max-width: 767px) {
+  .blog-post-header1-max-width {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .blog-post-header1-header {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .blog-post-header1-text06 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .blog-post-header1-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .blog-post-header1-content2 {
+    gap: var(--dl-space-space-halfunit);
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
